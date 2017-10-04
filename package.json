@@ -2,9 +2,21 @@
   "name": "land-friend",
   "version": "1.0.0",
   "description": "help those who call themselves friend to a piece of land report on the issues they see to keep that land in good health!",
+  "engines": {
+    "node": "6.11.1"
+  },
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "devDependencies": {
+    "request": "^2.81.0",
+    "tape": "^4.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/unpaid-intern/land-friend"
   },
   "keywords": [
     "land-friend"
