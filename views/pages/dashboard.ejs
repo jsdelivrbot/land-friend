@@ -2,6 +2,7 @@
 <html>
 
 <head>
+        <title>Dashboard</title>
     <% include ../partials/header.ejs %>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,7 +12,7 @@
         <meta name="author" content="scotty b">
         <!-- <link rel="icon" href="../../favicon.ico"> -->
 
-        <title>Dashboard</title>
+
 
 
         <!-- Custom styles for this template -->
@@ -27,26 +28,212 @@
 
 <body>
     <% include ../partials/nav.ejs %>
-    <ul class="nav nav-tabs">
-            <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
-            <li><a data-toggle="tab" href="#menu1">Menu 1</a></li>
-            <li><a data-toggle="tab" href="#menu2">Menu 2</a></li>
-          </ul>
-          
-          <div class="tab-content">
+        <ul class="nav nav-tabs">
+            <li class="active">
+                <a data-toggle="tab" href="#home">
+                 
+                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" class="img-responsive" alt="Generic placeholder thumbnail"
+                        width="50" height="50">
+                    <h2><span class="text-muted">Map Overlays</span></h4>
+                    
+                       
+                </a>
+            </li>
+            <li>
+                <a data-toggle="tab" href="#menu1">
+                
+                     
+                            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" class="img-responsive" alt="Generic placeholder thumbnail"
+                            width="50" height="50">
+                        <h2><span class="text-muted">Export Data</span></h4>
+                </a>
+            </li>
+            <li>
+                <a data-toggle="tab" href="#menu2">
+                
+                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" class="img-responsive" alt="Generic placeholder thumbnail"
+                            width="50" height="50">
+                        <h2><span class="text-muted">Manage Issues</span></h4>
+                        
+            
+                </a>
+            </li>
+        </ul>
+
+        <div class="tab-content">
             <div id="home" class="tab-pane fade in active">
-              <h3>HOME</h3>
-              <p>Some content.</p>
+                <h3>Map overlays</h3>
+                <img src="../img/tecc-watershed-map-674x403.jpg">
             </div>
             <div id="menu1" class="tab-pane fade">
-              <h3>Menu 1</h3>
-              <p>Some content in menu 1.</p>
+                <h3>Export Data</h3>
+                <div class="table-responsive">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Header</th>
+                                <th>Header</th>
+                                <th>Header</th>
+                                <th>Header</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1,001</td>
+                                <td>Lorem</td>
+                                <td>ipsum</td>
+                                <td>dolor</td>
+                                <td>sit</td>
+                            </tr>
+                            <tr>
+                                <td>1,002</td>
+                                <td>amet</td>
+                                <td>consectetur</td>
+                                <td>adipiscing</td>
+                                <td>elit</td>
+                            </tr>
+                            <tr>
+                                <td>1,003</td>
+                                <td>Integer</td>
+                                <td>nec</td>
+                                <td>odio</td>
+                                <td>Praesent</td>
+                            </tr>
+                            <tr>
+                                <td>1,003</td>
+                                <td>libero</td>
+                                <td>Sed</td>
+                                <td>cursus</td>
+                                <td>ante</td>
+                            </tr>
+                            <tr>
+                                <td>1,004</td>
+                                <td>dapibus</td>
+                                <td>diam</td>
+                                <td>Sed</td>
+                                <td>nisi</td>
+                            </tr>
+                            <tr>
+                                <td>1,005</td>
+                                <td>Nulla</td>
+                                <td>quis</td>
+                                <td>sem</td>
+                                <td>at</td>
+                            </tr>
+                            <tr>
+                                <td>1,006</td>
+                                <td>nibh</td>
+                                <td>elementum</td>
+                                <td>imperdiet</td>
+                                <td>Duis</td>
+                            </tr>
+                            <tr>
+                                <td>1,007</td>
+                                <td>sagittis</td>
+                                <td>ipsum</td>
+                                <td>Praesent</td>
+                                <td>mauris</td>
+                            </tr>
+                            <tr>
+                                <td>1,008</td>
+                                <td>Fusce</td>
+                                <td>nec</td>
+                                <td>tellus</td>
+                                <td>sed</td>
+                            </tr>
+                            <tr>
+                                <td>1,009</td>
+                                <td>augue</td>
+                                <td>semper</td>
+                                <td>porta</td>
+                                <td>Mauris</td>
+                            </tr>
+                            <tr>
+                                <td>1,010</td>
+                                <td>massa</td>
+                                <td>Vestibulum</td>
+                                <td>lacinia</td>
+                                <td>arcu</td>
+                            </tr>
+                            <tr>
+                                <td>1,011</td>
+                                <td>eget</td>
+                                <td>nulla</td>
+                                <td>Class</td>
+                                <td>aptent</td>
+                            </tr>
+                            <tr>
+                                <td>1,012</td>
+                                <td>taciti</td>
+                                <td>sociosqu</td>
+                                <td>ad</td>
+                                <td>litora</td>
+                            </tr>
+                            <tr>
+                                <td>1,013</td>
+                                <td>torquent</td>
+                                <td>per</td>
+                                <td>conubia</td>
+                                <td>nostra</td>
+                            </tr>
+                            <tr>
+                                <td>1,014</td>
+                                <td>per</td>
+                                <td>inceptos</td>
+                                <td>himenaeos</td>
+                                <td>Curabitur</td>
+                            </tr>
+                            <tr>
+                                <td>1,015</td>
+                                <td>sodales</td>
+                                <td>ligula</td>
+                                <td>in</td>
+                                <td>libero</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
+
             <div id="menu2" class="tab-pane fade">
-              <h3>Menu 2</h3>
-              <p>Some content in menu 2.</p>
+                <h3>Manage Issues</h3>
+                <div class="panel panel-default">
+                    <div class="panel panel-heading">
+                        <h2>Property A</h2>
+                        <i>Active Issues: <span class="text-warning">1</span></i>
+                    </div>
+                    <div class="panel panel-body">
+                        <a href="#">
+                            <p><span class="glyphicon glyphicon-leaf"></span> <i>Invasive species:</i> Mustard budding on south
+                                side of park - <i>Active: <span class="text-warning">Yes</span></i></p>
+                        </a>
+                        <a href="#">
+                            <p><span class="glyphicon glyphicon-tint"></span> <i>Flooding:</i> Flooding on all trails East of
+                                lookout rock - <i>Active: <span class="text-success">No</span></i>
+                            </p>
+                        </a>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel panel-heading">
+                        <h2>Property B</h2>
+                        <i>Active Issues: <span class="text-success">0</span></i>
+                    </div>
+                    <div class="panel panel-body">
+                        <a href="#">
+                            <p><span class="glyphicon glyphicon-eye-open"></span> <i>Suspicious person:</i> Tresspassers spotted
+                                on North side of park - <i>Active: <span class="text-success">No</span></i></p>
+                        </a>
+                        <a href="#">
+                            <p><span class="glyphicon glyphicon-warning-sign"></span> <i>Property Damage:</i> Fence broken on
+                                Southern edge of park - <i>Active: <span class="text-success">No</span></i></p>
+                        </a>
+                        </a>
+                    </div>
+                </div>
             </div>
-          </div> 
+        </div>
 </body>
 
 </html>
