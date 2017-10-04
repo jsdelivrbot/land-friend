@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <% include ../partials/header.ejs %>
 </head>
@@ -8,16 +9,28 @@
 
   <% include ../partials/nav.ejs %>
 
-<div class="jumbotron text-center">
-  <div class="container">
-    <a href="/" class="lang-logo">
+    <div class="jumbotron text-center">
+      <div class="container">
+        <a href="/" class="lang-logo">
       <img src="/lang-logo.png">
     </a>
     <h1>Land Friend</h1>
-    <p>This is an application that is built to support those who support taking care of the land</p>
-    <a type="button" class="btn btn-lg btn-default" href="https://devcenter.heroku.com/articles/getting-started-with-nodejs"><span class="glyphicon glyphicon-flash"></span> Getting Started with Node</a>
-    <a type="button" class="btn btn-lg btn-primary" href="https://github.com/heroku/node-js-getting-started"><span class="glyphicon glyphicon-download"></span> Source on GitHub</a>
-  </div>
-</div>
+    <p>Helping those who help the planet</p>
+        <div class="row">
+          <div class="col-md-offset-3 col-md-3">
+              <br />
+            <a type="button" class="btn btn-lg btn-warning" href="/report-issue"><span class="glyphicon glyphicon-alert"></span> Report an issue</a>
+            
+          </div>
+       
+          <div class="col-md-3">
+              <br />
+            <a type="button" class="btn btn-lg btn-success" href="/issues"><span class="glyphicon glyphicon-map-marker"></span> Check for issues</a>
+          </div>
+
+        </div>
+      </div>
+    </div>
 </body>
+
 </html>
