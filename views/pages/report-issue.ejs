@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <% include ../partials/header.ejs %>
+</head>
+
+<body>
+
+    <% include ../partials/nav.ejs %>
+
+        <h1>Report issue</h1>
+        <i>Please enter details of the issue below</p>
+        <form class="container">
+            <fieldset class="sr-only">Issue report details</fieldset>
+            <div class="row">
+                <div class="col-sm-6">
+                    <label class="form-label">Title</label>
+                    <input type="text" class="form-control" />
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                    <div class="col-sm-6">
+                            <label>type of issue</label>
+                            <select class="form-control" >
+                              <option value="1">graffitti</option>
+                              <option value="2">property damage</option>
+                              <option value="5">flooding</option>
+                              <option value="6">fire damage</option>
+                              <option value="7">invasive species</option>
+                              <option value="8">suspicious person(s)</option>
+                              <option value="9">other</option>
+                            </select>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                        <div class="col-sm-6">
+                                <label class="form-label">description of issue</label>
+                                <textarea class="form-control"></textarea> 
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                            <div class="col-sm-6">
+                                    <label>photo</label>
+                                    <input type="file" name="fileToUpload" id="fileToUpload">
+                            </div>
+                        </div>
+            <div class="row">
+                <hr />
+                <div class="col-md-offset-3 col-md-3">
+
+                    <a type="button" class="btn btn-lg btn-primary" href="/report-issue"><span class="glyphicon glyphicon-alert"></span> submit report</a>
+
+                </div>
+            </div>
+        </form>
+
+
+
+
+</body>
+
+</html>

@@ -13,6 +13,31 @@ app.get('/', function(request, response) {
   response.render('pages/index');
 });
 
+app.get('/dashboard', function(request, response) {
+  response.render('pages/dashboard');
+});
+
+app.get('/issues', function(request, response) {
+  response.render('pages/issues');
+});
+
+app.get('/report-issue', function(request, response) {
+  response.render('pages/report-issue');
+});
+
+app.get('/manage-application', function(request, response) {
+  response.render('pages/manage-application');
+});
+
+app.get('/manage-properties', function(request, response) {
+  response.render('pages/manage-properties');
+});
+
+app.get('/profile', function(request, response) {
+  response.render('pages/profile');
+});
+
+
 app.listen(app.get('port'), function() {
   console.log('Node app is running on port', app.get('port'));
 });
