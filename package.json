@@ -1,0 +1,17 @@
+{
+  "name": "land-friend",
+  "version": "1.0.0",
+  "description": "help those who call themselves friend to a piece of land report on the issues they see to keep that land in good health!",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "land-friend"
+  ],
+  "author": "scotty b",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.1"
+  }
+}
